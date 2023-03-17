@@ -1,0 +1,157 @@
+month,cause,count
+1.0,1 - Lightning,2
+1.0,10 - Vehicle,1
+1.0,13 - Non-Firefighter Training,2
+1.0,14 - Unknown / Unidentified,27
+1.0,15 - Structure,1
+1.0,18 - Escaped Prescribed Burn,2
+1.0,2 - Equipment Use,1
+1.0,3 - Smoking,1
+1.0,4 - Campfire,3
+1.0,5 - Debris,6
+1.0,7 - Arson,1
+1.0,9 - Miscellaneous,2
+2.0,1 - Lightning,1
+2.0,11 - Powerline,1
+2.0,14 - Unknown / Unidentified,15
+2.0,18 - Escaped Prescribed Burn,3
+2.0,4 - Campfire,2
+2.0,5 - Debris,3
+2.0,8 - Playing with fire,1
+2.0,9 - Miscellaneous,4
+3.0,1 - Lightning,1
+3.0,10 - Vehicle,1
+3.0,14 - Unknown / Unidentified,22
+3.0,18 - Escaped Prescribed Burn,3
+3.0,2 - Equipment Use,1
+3.0,3 - Smoking,1
+3.0,4 - Campfire,3
+3.0,5 - Debris,5
+3.0,7 - Arson,3
+3.0,8 - Playing with fire,2
+3.0,9 - Miscellaneous,11
+4.0,1 - Lightning,4
+4.0,10 - Vehicle,1
+4.0,11 - Powerline,5
+4.0,14 - Unknown / Unidentified,42
+4.0,18 - Escaped Prescribed Burn,1
+4.0,2 - Equipment Use,7
+4.0,3 - Smoking,2
+4.0,4 - Campfire,7
+4.0,5 - Debris,12
+4.0,7 - Arson,4
+4.0,8 - Playing with fire,4
+4.0,9 - Miscellaneous,18
+5.0,1 - Lightning,22
+5.0,10 - Vehicle,10
+5.0,11 - Powerline,15
+5.0,13 - Non-Firefighter Training,1
+5.0,14 - Unknown / Unidentified,184
+5.0,18 - Escaped Prescribed Burn,4
+5.0,2 - Equipment Use,50
+5.0,3 - Smoking,11
+5.0,4 - Campfire,13
+5.0,5 - Debris,25
+5.0,6 - Railroad,1
+5.0,7 - Arson,21
+5.0,8 - Playing with fire,4
+5.0,9 - Miscellaneous,60
+6.0,1 - Lightning,211
+6.0,10 - Vehicle,34
+6.0,11 - Powerline,29
+6.0,13 - Non-Firefighter Training,2
+6.0,14 - Unknown / Unidentified,572
+6.0,15 - Structure,2
+6.0,18 - Escaped Prescribed Burn,4
+6.0,2 - Equipment Use,98
+6.0,3 - Smoking,10
+6.0,4 - Campfire,34
+6.0,5 - Debris,25
+6.0,6 - Railroad,4
+6.0,7 - Arson,70
+6.0,8 - Playing with fire,17
+6.0,9 - Miscellaneous,133
+7.0,1 - Lightning,368
+7.0,10 - Vehicle,45
+7.0,11 - Powerline,23
+7.0,14 - Unknown / Unidentified,897
+7.0,15 - Structure,3
+7.0,16 - Aircraft,1
+7.0,18 - Escaped Prescribed Burn,3
+7.0,19 - Illegal Alien Campfire,1
+7.0,2 - Equipment Use,123
+7.0,3 - Smoking,41
+7.0,4 - Campfire,41
+7.0,5 - Debris,22
+7.0,6 - Railroad,12
+7.0,7 - Arson,110
+7.0,8 - Playing with fire,25
+7.0,9 - Miscellaneous,182
+8.0,1 - Lightning,426
+8.0,10 - Vehicle,36
+8.0,11 - Powerline,20
+8.0,12 - Firefighter Training,2
+8.0,14 - Unknown / Unidentified,792
+8.0,15 - Structure,2
+8.0,16 - Aircraft,1
+8.0,18 - Escaped Prescribed Burn,6
+8.0,2 - Equipment Use,125
+8.0,3 - Smoking,31
+8.0,4 - Campfire,37
+8.0,5 - Debris,34
+8.0,6 - Railroad,8
+8.0,7 - Arson,127
+8.0,8 - Playing with fire,16
+8.0,9 - Miscellaneous,205
+9.0,1 - Lightning,191
+9.0,10 - Vehicle,21
+9.0,11 - Powerline,18
+9.0,14 - Unknown / Unidentified,753
+9.0,15 - Structure,1
+9.0,16 - Aircraft,3
+9.0,18 - Escaped Prescribed Burn,7
+9.0,19 - Illegal Alien Campfire,2
+9.0,2 - Equipment Use,75
+9.0,3 - Smoking,34
+9.0,4 - Campfire,22
+9.0,5 - Debris,34
+9.0,6 - Railroad,5
+9.0,7 - Arson,94
+9.0,8 - Playing with fire,5
+9.0,9 - Miscellaneous,140
+10.0,1 - Lightning,19
+10.0,10 - Vehicle,6
+10.0,11 - Powerline,17
+10.0,14 - Unknown / Unidentified,355
+10.0,16 - Aircraft,1
+10.0,18 - Escaped Prescribed Burn,4
+10.0,19 - Illegal Alien Campfire,1
+10.0,2 - Equipment Use,33
+10.0,3 - Smoking,10
+10.0,4 - Campfire,9
+10.0,5 - Debris,22
+10.0,6 - Railroad,3
+10.0,7 - Arson,31
+10.0,8 - Playing with fire,4
+10.0,9 - Miscellaneous,66
+11.0,1 - Lightning,2
+11.0,10 - Vehicle,5
+11.0,11 - Powerline,4
+11.0,14 - Unknown / Unidentified,141
+11.0,16 - Aircraft,1
+11.0,18 - Escaped Prescribed Burn,2
+11.0,2 - Equipment Use,8
+11.0,3 - Smoking,1
+11.0,4 - Campfire,7
+11.0,5 - Debris,28
+11.0,7 - Arson,4
+11.0,9 - Miscellaneous,21
+12.0,10 - Vehicle,1
+12.0,11 - Powerline,3
+12.0,14 - Unknown / Unidentified,51
+12.0,18 - Escaped Prescribed Burn,1
+12.0,2 - Equipment Use,1
+12.0,4 - Campfire,1
+12.0,5 - Debris,9
+12.0,7 - Arson,1
+12.0,9 - Miscellaneous,15
