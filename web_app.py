@@ -1,4 +1,4 @@
-# Run this app with `python app.py` and
+# Run this app with `python web_app.py` and
 # visit http://127.0.0.1:8050/ in your web browser.
 
 from dash import Dash, dcc, html, Input, Output, State
@@ -8,15 +8,19 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import numpy as np
 from sklearn.linear_model import LinearRegression
+import os
+from pathlib import Path
 
 app = Dash(__name__)
 
 # Load Data
-df_1 = pd.read_csv('wildfires_grouped_task1.csv')
-df_2 = pd.read_csv('wildfires_grouped_task2_2.csv')
-df_3 = pd.read_csv('wildfires_grouped_task3.csv')
-df_4 = pd.read_csv('wildfires_grouped_task4.csv')
-df_5 = pd.read_csv('wildfires_grouped_task5.csv')
+notebook_path = __file__
+data_path = Path(notebook_path).parent.joinpath('data')
+df_1 = pd.read_csv(data_path / 'wildfires_grouped_task1.csv')
+df_2 = pd.read_csv(data_path / 'wildfires_grouped_task2_2.csv')
+df_3 = pd.read_csv(data_path / 'wildfires_grouped_task3.csv')
+df_4 = pd.read_csv(data_path / 'wildfires_grouped_task4.csv')
+df_5 = pd.read_csv(data_path / 'wildfires_grouped_task5.csv')
 
 df_4_1 = df_4.groupby('month').sum(numeric_only=True)
 df_4_1.reset_index(inplace=True)
@@ -192,8 +196,6 @@ app.layout = html.Div(
             dcc.Graph(id='fig_1', figure=make_fig1()),
     ]
 )
-    
-
 
     
 @app.callback(
@@ -201,7 +203,6 @@ app.layout = html.Div(
     Input('demo-dropdown', 'value')
 )
 def update_output(value):
-    # return f'You have selected {value}'
     if value == 'task1':
         fig = make_fig1()
         return fig
