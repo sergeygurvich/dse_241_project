@@ -63,7 +63,7 @@ def make_fig1():
             'zoom': 5},
         showlegend = False)
     fig_1.update_layout(height=500, margin={"r":0,"t":0,"l":0,"b":0})
-    fig_1.update_layout(coloraxis_colorbar_x=0.7)
+    fig_1.update_layout(coloraxis_colorbar_x=0.8)
     fig_1.update_layout(
     coloraxis_colorbar=dict(
         title="Area Burned, acres",
@@ -181,7 +181,7 @@ def make_fig4_3():
     """
     Function to make Task 4.3 - Seasonality Bar Charts Animation
     """
-    fig_4_3 = px.bar(df_4_3, x="month", y="count", title="Seasonality Of Wildfires by Their Cause",
+    fig_4_3 = px.bar(df_4_3, x="month", y="count",
                 height=500,
                 width=1000,
                 # text_auto=True,
@@ -219,13 +219,13 @@ app.layout = html.Div(
     children=[
             html.H1(children='California Wildfires Analysis'),
             dcc.Dropdown(   options=[
-               {'label': 'Task 1: Wildfires Geography', 'value': 'task1'},
-               {'label': 'Task 2: Wildfires Trends', 'value': 'task2'},
-               {'label': 'Task 3: Causes Of Wildfires Onset', 'value': 'task3'},
-               {'label': 'Task 4.1: Seasonality Of Wildfires Overall', 'value': 'task4_1'},
-               {'label': 'Task 4.2: Seasonality Of Wildfires by Their Cause', 'value': 'task4_2'},
-               {'label': 'Task 4.3: Seasonality Of Wildfires by Years', 'value': 'task4_3'},
-               {'label': 'Task 5: Average Wildfire Duration', 'value': 'task5'},
+               {'label': '1. Wildfires Geography', 'value': 'task1'},
+               {'label': '2. Wildfires Trends', 'value': 'task2'},
+               {'label': '3. Causes Of Wildfires Onset', 'value': 'task3'},
+               {'label': '4.1. Seasonality Of Wildfires Overall', 'value': 'task4_1'},
+               {'label': '4.2. Seasonality Of Wildfires by Their Cause', 'value': 'task4_2'},
+               {'label': '4.3. Seasonality Of Wildfires by Years', 'value': 'task4_3'},
+               {'label': '5. Average Wildfire Duration', 'value': 'task5'},
                ],
                value='task1',id='demo-dropdown', searchable=False, clearable=False),
             html.Div(id='dd-output-container'),
