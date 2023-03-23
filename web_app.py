@@ -18,7 +18,7 @@ notebook_path = __file__
 data_path = Path(notebook_path).parent.joinpath('data')
 
 df_1 = pd.read_csv(data_path / 'wildfires_grouped_task1.csv')
-df_2 = pd.read_csv(data_path / 'wildfires_grouped_task2_2.csv')
+df_2 = pd.read_csv(data_path / 'wildfires_grouped_task2.csv')
 df_3 = pd.read_csv(data_path / 'wildfires_grouped_task3.csv')
 df_4_1 = pd.read_csv(data_path / 'wildfires_grouped_task4_1.csv')
 df_4_2 = pd.read_csv(data_path / 'wildfires_grouped_task4_2.csv')
