@@ -113,7 +113,9 @@ def make_fig2():
     # Set y-axes titles
     fig_2.update_yaxes(title_text="wildfires count", secondary_y=False)
     fig_2.update_yaxes(title_text="wildfires area burned, acres", secondary_y=True)
-
+    
+                   
+    fig_2.update_layout( width=1200, height=500)
     return fig_2
 
 def make_fig3():
